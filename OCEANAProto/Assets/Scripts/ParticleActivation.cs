@@ -9,19 +9,21 @@ public class ParticleActivation : MonoBehaviour
     public GameObject bassParticles;
     public GameObject fishParticles;
     public GameObject bubbleParticles;
+	public GameObject lineParticles;
 
 
 
-    private bool brassOn = false;
+	private bool brassOn = false;
     private bool bassOn = false;
     private bool fishOn = false;
     private bool bubbleOn = false;
+	private bool lineOn = false;
 
 
 
 
-    // Start is called before the first frame update
-    void Start()
+	// Start is called before the first frame update
+	void Start()
     {
         
     }
@@ -75,8 +77,17 @@ public class ParticleActivation : MonoBehaviour
             bubbleOn = false;
         }
 
+		if (Input.GetKeyDown((KeyCode.L)) && lineOn == false)
+		{
+			lineParticles.SetActive(true);
+			lineOn = true;
+		}
+		else if (Input.GetKeyDown((KeyCode.L)) && lineOn == true)
+		{
+			lineParticles.SetActive(false);
+			lineOn = false;
+		}
 
 
-
-    }
+	}
 }
