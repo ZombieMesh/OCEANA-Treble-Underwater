@@ -491,6 +491,7 @@ GameObject:
   m_Component:
   - component: {fileID: 441834405}
   - component: {fileID: 441834404}
+  - component: {fileID: 441834406}
   m_Layer: 0
   m_Name: ParticleManager
   m_TagString: Untagged
@@ -529,6 +530,38 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &441834406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441834403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bd9bacd1f6802f48983dc20ca94d40d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bubbleParticleOneT: {fileID: 0}
+  bubbleParticleTwoT: {fileID: 0}
+  bubbleParticleThree: {fileID: 0}
+  bubbleParticleFour: {fileID: 0}
+  bubbleParticleFive: {fileID: 0}
+  BPOneStartTimeT: 0
+  BPTwoStartTimeT: 0
+  BPThreeStartTime: 0
+  BPFourStartTime: 0
+  BPFiveStartTime: 0
+  BPOneIntervalT: 0
+  BPTwoIntervalT: 0
+  BPThreeInterval: 0
+  BPFourInterval: 0
+  BPFiveInterval: 0
+  BPOneDurationT: 0
+  BPTwoDurationT: 0
+  BPThreeDuration: 0
+  BPFourDuraiton: 0
+  BPFiveDuration: 0
 --- !u!1 &457084083
 GameObject:
   m_ObjectHideFlags: 0
