@@ -52,7 +52,7 @@ Unity will automatically fill in areas marked as Placeholder from the Player Set
     <uses-privilege ml:name="CoarseLocation" />
     <!--Examples using ScreensProvider: Screens-->
     <uses-privilege ml:name="ScreensProvider" />
-    <component ml:binary_name="bin/Player.elf" ml:name=".fullscreen" ml:type="Fullscreen" ml:visible_name="Placeholder">
+    <component ml:binary_name="bin/Player.elf" ml:name=".fullscreen" ml:type="Fullscreen" ml:visible_name="MLTest">
       <icon ml:model_folder="Icon/Model" ml:portal_folder="Icon/Portal" />
     </component>
   </application>
