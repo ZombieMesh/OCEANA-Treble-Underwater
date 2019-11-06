@@ -4,37 +4,48 @@ using UnityEngine;
 
 public class BubbleActivation : MonoBehaviour
 {
-	//[System.Serializable]
-	[SerializeField]
-	public struct BubbleStruct
+	[System.Serializable]
+	public class BubbleStruct
 	{
 		public GameObject BubbleParticle;
 		public float BPStartTime;
 		public float BPInterval;
 		public float BPDuration;
 
-
 		public BubbleStruct(GameObject bubbleParticle, float bPStartTime, float bPInterval, float bPDuration)
 		{
-			this.BubbleParticle = bubbleParticle;
-			this.BPStartTime = bPStartTime;
-			this.BPInterval = bPInterval;
-			this.BPDuration = bPDuration;
+			BubbleParticle = bubbleParticle;
+			BPStartTime = bPStartTime;
+			BPInterval = bPInterval;
+			BPDuration = bPDuration;
 		}
-
 	}
 
-	//BubbleStruct BubbleFive = new BubbleStruct();
-
-
-
 	//"Bubble" Particles Holders
-	public GameObject bubbleParticleOneT;
-	public GameObject bubbleParticleTwoT;
-	public GameObject bubbleParticleThree;
-	public GameObject bubbleParticleFour;
-	public GameObject bubbleParticleFive;
 
+
+	/*
+	public GameObject bpPartOne;
+	public GameObject bPPartTwo;
+	public GameObject bpPartThree;
+	public GameObject bPPartFour;
+	public GameObject bpPartFive;
+	*/
+
+	public static GameObject bubbleParticleOne;
+	public static GameObject bubbleParticleTwo;
+	public static GameObject bubbleParticleThree;
+	public static GameObject bubbleParticleFour;
+	public static GameObject bubbleParticleFive;
+
+
+	public BubbleStruct bubbleSetOne = new BubbleStruct(bubbleParticleOne, 0f, 5f, 5f);
+	public BubbleStruct bubbleSetTwo = new BubbleStruct(bubbleParticleTwo, 0f, 10f, 5f);
+	public BubbleStruct bubbleSetThree = new BubbleStruct(bubbleParticleThree, 0f, 15f, 5f);
+	public BubbleStruct bubbleSetFour = new BubbleStruct(bubbleParticleFour, 0f, 20f, 5f);
+	public BubbleStruct bubbleSetFive = new BubbleStruct(bubbleParticleFive, 0f, 25f, 5f);
+
+	/*
 	//Timer Check Variables
 	public float BPOneStartTimeT;
 	public float BPTwoStartTimeT;
@@ -55,25 +66,26 @@ public class BubbleActivation : MonoBehaviour
 	public float BPThreeDuration;
 	public float BPFourDuraiton;
 	public float BPFiveDuration;
-
-
-
-	public BubbleStruct BubbleFive = new BubbleStruct(/*bubbleParticleFive, BPFiveStartTime, BPFiveInterval, BPDurationFive*/);
+	*/
 
 
 	// Start is called before the first frame update
 	void Start()
     {
+		/*
+		bubbleParticleOne = bPPartOne;
+		bubbleParticleTwo = bPPartTwo;
+		bubbleParticleThree = bPPartThree;
+		bubbleParticleFour = bPPartFour;
+		bubbleParticleFive = bPPartFive;
+		*/
 
-		//Start Timers
-		BPOneStartTimeT = Time.time;
-		BPTwoStartTimeT = Time.time;
-		BPThreeStartTime = Time.time;
-		BPFourStartTime = Time.time;
-		BPFiveStartTime = Time.time;
 
-
-
+		bubbleSetOne.BPStartTime = Time.time;
+		bubbleSetTwo.BPStartTime = Time.time;
+		bubbleSetThree.BPStartTime = Time.time;
+		bubbleSetFour.BPStartTime = Time.time;
+		bubbleSetFive.BPStartTime = Time.time;
 
 
 	}
@@ -82,12 +94,29 @@ public class BubbleActivation : MonoBehaviour
     void Update()
     {
         
-		if (Time.time > BPOneStartTimeT + BPOneIntervalT)
+		//Particle One
+		if (Time.time > bubbleSetOne.BPStartTime + bubbleSetOne.BPInterval)
 		{
-			bubbleParticleOneT.GetComponent<ParticleSystem>().Play();
+			bubbleSetOne.BubbleParticle.GetComponent<ParticleSystem>().Play();
 
-			//Reset Timer
-			BPOneStartTimeT = Time.time;
+			if (Time.time > bubbleSetOne.BPStartTime + bubbleSetOne.BPInterval + bubbleSetOne.BPDuration)
+			{
+				bubbleSetOne.BubbleParticle.GetComponent<ParticleSystem>().Stop(true, ParticleSystemStopBehavior.StopEmitting);
+				bubbleSetOne.BPStartTime = Time.time;
+			}
+		}
+
+
+		//Particle Two
+		if (Time.time > bubbleSetTwo.BPStartTime + bubbleSetTwo.BPInterval)
+		{
+			bubbleSetTwo.BubbleParticle.GetComponent<ParticleSystem>().Play();
+
+			if (Time.time > bubbleSetTwo.BPStartTime + bubbleSetTwo.BPInterval + bubbleSetTwo.BPDuration)
+			{
+				bubbleSetTwo.BubbleParticle.GetComponent<ParticleSystem>().Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
+				bubbleSetTwo.BPStartTime = Time.time;
+			}
 		}
 
 
@@ -95,5 +124,5 @@ public class BubbleActivation : MonoBehaviour
 
 
 
-    }
+	}
 }
