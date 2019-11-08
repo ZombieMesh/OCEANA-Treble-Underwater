@@ -24,13 +24,13 @@ public class BubbleActivation : MonoBehaviour
 	//"Bubble" Particles Holders
 
 
-	/*
+	
 	public GameObject bpPartOne;
 	public GameObject bPPartTwo;
 	public GameObject bpPartThree;
 	public GameObject bPPartFour;
 	public GameObject bpPartFive;
-	*/
+	
 
 	public static GameObject bubbleParticleOne;
 	public static GameObject bubbleParticleTwo;
@@ -39,11 +39,13 @@ public class BubbleActivation : MonoBehaviour
 	public static GameObject bubbleParticleFive;
 
 
-	public BubbleStruct bubbleSetOne = new BubbleStruct(bubbleParticleOne, 0f, 5f, 5f);
-	public BubbleStruct bubbleSetTwo = new BubbleStruct(bubbleParticleTwo, 0f, 10f, 5f);
-	public BubbleStruct bubbleSetThree = new BubbleStruct(bubbleParticleThree, 0f, 15f, 5f);
-	public BubbleStruct bubbleSetFour = new BubbleStruct(bubbleParticleFour, 0f, 20f, 5f);
-	public BubbleStruct bubbleSetFive = new BubbleStruct(bubbleParticleFive, 0f, 25f, 5f);
+
+
+	public BubbleStruct bubbleSetOne = new BubbleStruct(bubbleParticleOne, 0f, 5f, 10f);
+	public BubbleStruct bubbleSetTwo = new BubbleStruct(bubbleParticleTwo, 0f, 15f, 10f);
+	public BubbleStruct bubbleSetThree = new BubbleStruct(bubbleParticleThree, 0f, 25f, 10f);
+	public BubbleStruct bubbleSetFour = new BubbleStruct(bubbleParticleFour, 0f, 35f, 10f);
+	public BubbleStruct bubbleSetFive = new BubbleStruct(bubbleParticleFive, 0f, 45f, 10f);
 
 	/*
 	//Timer Check Variables
@@ -80,6 +82,8 @@ public class BubbleActivation : MonoBehaviour
 		bubbleParticleFive = bPPartFive;
 		*/
 
+		
+
 
 		bubbleSetOne.BPStartTime = Time.time;
 		bubbleSetTwo.BPStartTime = Time.time;
@@ -101,7 +105,7 @@ public class BubbleActivation : MonoBehaviour
 
 			if (Time.time > bubbleSetOne.BPStartTime + bubbleSetOne.BPInterval + bubbleSetOne.BPDuration)
 			{
-				bubbleSetOne.BubbleParticle.GetComponent<ParticleSystem>().Stop(true, ParticleSystemStopBehavior.StopEmitting);
+				bubbleSetOne.BubbleParticle.GetComponent<ParticleSystem>().Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
 				bubbleSetOne.BPStartTime = Time.time;
 			}
 		}
@@ -114,7 +118,7 @@ public class BubbleActivation : MonoBehaviour
 
 			if (Time.time > bubbleSetTwo.BPStartTime + bubbleSetTwo.BPInterval + bubbleSetTwo.BPDuration)
 			{
-				bubbleSetTwo.BubbleParticle.GetComponent<ParticleSystem>().Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
+				bubbleSetTwo.BubbleParticle.GetComponent<ParticleSystem>().Stop(true, ParticleSystemStopBehavior.StopEmitting);
 				bubbleSetTwo.BPStartTime = Time.time;
 			}
 		}
