@@ -1,0 +1,290 @@
+{
+ "entries": [
+  {
+   "compression": 8,
+   "hash": "5925de9f4d7b83c65d1fd7b25ced5f0bf8c27e73",
+   "pkgpath": "bin/libc++_shared.so",
+   "size": 976832,
+   "src": "C:/MagicLeapSDKs/mlsdk/v0.21.0/lumin/stl/libc++/lib/libc++_shared.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\ty547135\\Desktop\\OCEANA-Treble-Underwater\\MagicLeapCert\\newlabel.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "32dffe606a037e644729b3364a1366b910d29c88",
+   "xfrm_path": "C:/Users/ty547135/Desktop/OCEANA-Treble-Underwater/MagicLeapTest/.out/.cache/debug_lumin_clang-3.8_aarch64/edu.ucf.gonzalt.mlbuild-0f51278a098f34d3\\libc++_shared.so-fc3de26133f635f2",
+   "xfrm_size": 977590
+  },
+  {
+   "compression": 8,
+   "hash": "f18b9648c1e4159e730e97b17300b512d24f5dc0",
+   "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
+   "size": 3286124,
+   "src": "C:/Users/ty547135/Desktop/OCEANA-Treble-Underwater/MagicLeapTest/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "0d1964ae4e824715d6c24d216ccb0c18988818c3",
+   "pkgpath": "bin/libil2cpp.so",
+   "size": 50003176,
+   "src": "C:/Users/ty547135/Desktop/OCEANA-Treble-Underwater/MagicLeapTest/Temp/StagingArea/Data/Native/libil2cpp.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\ty547135\\Desktop\\OCEANA-Treble-Underwater\\MagicLeapCert\\newlabel.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "668437af18b0b5200d1a2c153dd6808f806d13b5",
+   "xfrm_path": "C:/Users/ty547135/Desktop/OCEANA-Treble-Underwater/MagicLeapTest/.out/.cache/debug_lumin_clang-3.8_aarch64/edu.ucf.gonzalt.mlbuild-0f51278a098f34d3\\libil2cpp.so-84d719896cc70088",
+   "xfrm_size": 50003934
+  },
+  {
+   "compression": 8,
+   "hash": "6b3b1067e8eeb28457c572292a209cc931e93089",
+   "pkgpath": "bin/AudioPluginMSASpatializer.so",
+   "size": 269360,
+   "src": "C:/Users/ty547135/Desktop/OCEANA-Treble-Underwater/MagicLeapTest/Temp/StagingArea/Data/Plugins/AudioPluginMSASpatializer.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\ty547135\\Desktop\\OCEANA-Treble-Underwater\\MagicLeapCert\\newlabel.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "e27d14bce995c9a88358ccca04aa6ef7092af6a7",
+   "xfrm_path": "C:/Users/ty547135/Desktop/OCEANA-Treble-Underwater/MagicLeapTest/.out/.cache/debug_lumin_clang-3.8_aarch64/edu.ucf.gonzalt.mlbuild-0f51278a098f34d3\\AudioPluginMSASpatializer.so-4705de280b30b912",
+   "xfrm_size": 270118
+  },
+  {
+   "compression": 8,
+   "hash": "241e9746801f25103d3754d88e543575ea47f8a9",
+   "pkgpath": "bin/UnityEngine.TestRunner.dll",
+   "size": 100864,
+   "src": "C:/Users/ty547135/Desktop/OCEANA-Treble-Underwater/MagicLeapTest/Temp/StagingArea/Data/Plugins/UnityEngine.TestRunner.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "59d035b177af853aa8ee2a78714391dae4657a36",
+   "pkgpath": "bin/UnityMagicLeap.so",
+   "size": 1495008,
+   "src": "C:/Users/ty547135/Desktop/OCEANA-Treble-Underwater/MagicLeapTest/Temp/StagingArea/Data/Plugins/UnityMagicLeap.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\ty547135\\Desktop\\OCEANA-Treble-Underwater\\MagicLeapCert\\newlabel.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "6bbc5def4a0987a985d73764e7ac3b9a66a56041",
+   "xfrm_path": "C:/Users/ty547135/Desktop/OCEANA-Treble-Underwater/MagicLeapTest/.out/.cache/debug_lumin_clang-3.8_aarch64/edu.ucf.gonzalt.mlbuild-0f51278a098f34d3\\UnityMagicLeap.so-4705de280b30b912",
+   "xfrm_size": 1495766
+  },
+  {
+   "compression": 8,
+   "hash": "c304dd41954e030c36437de3b651679e02512d0d",
+   "pkgpath": "bin/libml_camera_plugin.so",
+   "size": 14184,
+   "src": "C:/Users/ty547135/Desktop/OCEANA-Treble-Underwater/MagicLeapTest/Temp/StagingArea/Data/Plugins/libml_camera_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\ty547135\\Desktop\\OCEANA-Treble-Underwater\\MagicLeapCert\\newlabel.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "db5f5d8b4be36f49bfaed3294423eecf669000d4",
+   "xfrm_path": "C:/Users/ty547135/Desktop/OCEANA-Treble-Underwater/MagicLeapTest/.out/.cache/debug_lumin_clang-3.8_aarch64/edu.ucf.gonzalt.mlbuild-0f51278a098f34d3\\libml_camera_plugin.so-4705de280b30b912",
+   "xfrm_size": 14942
+  },
+  {
+   "compression": 8,
+   "hash": "6a0b868a47b45da60d66c10ba6a0195b85f54e43",
+   "pkgpath": "bin/libml_mediaplayer_plugin.so",
+   "size": 67624,
+   "src": "C:/Users/ty547135/Desktop/OCEANA-Treble-Underwater/MagicLeapTest/Temp/StagingArea/Data/Plugins/libml_mediaplayer_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\ty547135\\Desktop\\OCEANA-Treble-Underwater\\MagicLeapCert\\newlabel.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "c493b002964b3a827c5e02137165bdc99729c331",
+   "xfrm_path": "C:/Users/ty547135/Desktop/OCEANA-Treble-Underwater/MagicLeapTest/.out/.cache/debug_lumin_clang-3.8_aarch64/edu.ucf.gonzalt.mlbuild-0f51278a098f34d3\\libml_mediaplayer_plugin.so-4705de280b30b912",
+   "xfrm_size": 68382
+  },
+  {
+   "compression": 8,
+   "hash": "984e4d2049ed5491b970ba15d1e8c8cadac0896e",
+   "pkgpath": "bin/nunit.framework.dll",
+   "size": 339968,
+   "src": "C:/Users/ty547135/Desktop/OCEANA-Treble-Underwater/MagicLeapTest/Temp/StagingArea/Data/Plugins/nunit.framework.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "e6124da6073b916e29e013cf3ae3f58a4c5fdb0e",
+   "pkgpath": "Data/Resources/mscorlib.dll-resources.dat",
+   "size": 337563,
+   "src": "C:/Users/ty547135/Desktop/OCEANA-Treble-Underwater/MagicLeapTest/Temp/StagingArea/Data/Resources/mscorlib.dll-resources.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "63c7ca62020949b1c87b1439f31b7a9719db98c1",
+   "pkgpath": "Data/Resources/unity default resources",
+   "size": 3652028,
+   "src": "C:/Users/ty547135/Desktop/OCEANA-Treble-Underwater/MagicLeapTest/Temp/StagingArea/Data/Resources/unity default resources"
+  },
+  {
+   "compression": 8,
+   "hash": "f3ddd436449416fd9d2153e16acf6ec71202b20a",
+   "pkgpath": "Data/Resources/unity_builtin_extra",
+   "size": 754668,
+   "src": "C:/Users/ty547135/Desktop/OCEANA-Treble-Underwater/MagicLeapTest/Temp/StagingArea/Data/Resources/unity_builtin_extra"
+  },
+  {
+   "compression": 8,
+   "hash": "10506c7e5f53e331db0e8c7c94047849df023433",
+   "pkgpath": "Data/UnitySubsystems/UnityMagicLeap/UnitySubsystemsManifest.json",
+   "size": 176,
+   "src": "C:/Users/ty547135/Desktop/OCEANA-Treble-Underwater/MagicLeapTest/Temp/StagingArea/Data/UnitySubsystems/UnityMagicLeap/UnitySubsystemsManifest.json"
+  },
+  {
+   "compression": 8,
+   "hash": "9f9d9fdfae69214ea57a2416e60a9fe924367caa",
+   "pkgpath": "Data/boot.config",
+   "size": 144,
+   "src": "C:/Users/ty547135/Desktop/OCEANA-Treble-Underwater/MagicLeapTest/Temp/StagingArea/Data/boot.config"
+  },
+  {
+   "compression": 8,
+   "hash": "bd0137e7e6b26a3e7667c91459b540116232474b",
+   "pkgpath": "Data/globalgamemanagers",
+   "size": 49112,
+   "src": "C:/Users/ty547135/Desktop/OCEANA-Treble-Underwater/MagicLeapTest/Temp/StagingArea/Data/globalgamemanagers"
+  },
+  {
+   "compression": 8,
+   "hash": "1f99672f8495f3a3e4ee8aba3df1ddecd6b258f1",
+   "pkgpath": "Data/globalgamemanagers.assets",
+   "size": 69216,
+   "src": "C:/Users/ty547135/Desktop/OCEANA-Treble-Underwater/MagicLeapTest/Temp/StagingArea/Data/globalgamemanagers.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "c9a98c4333c303846b1f1439f1e0a8167bd80842",
+   "pkgpath": "Data/level0",
+   "size": 387796,
+   "src": "C:/Users/ty547135/Desktop/OCEANA-Treble-Underwater/MagicLeapTest/Temp/StagingArea/Data/level0"
+  },
+  {
+   "compression": 8,
+   "hash": "0c8f64bce1a18ff9f5526924d3dd1ae2877047f3",
+   "pkgpath": "Data/resources.assets",
+   "size": 534856,
+   "src": "C:/Users/ty547135/Desktop/OCEANA-Treble-Underwater/MagicLeapTest/Temp/StagingArea/Data/resources.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "f4ce785d29d24c54555cb4aa9fed0d8d2dee1fad",
+   "pkgpath": "Data/resources.assets.resS",
+   "size": 360480,
+   "src": "C:/Users/ty547135/Desktop/OCEANA-Treble-Underwater/MagicLeapTest/Temp/StagingArea/Data/resources.assets.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "6cdc0e4cbe1201c4ca6f1a16e833814ac2bbc3a8",
+   "pkgpath": "Data/resources.resource",
+   "size": 5875136,
+   "src": "C:/Users/ty547135/Desktop/OCEANA-Treble-Underwater/MagicLeapTest/Temp/StagingArea/Data/resources.resource"
+  },
+  {
+   "compression": 8,
+   "hash": "e9ba9142dbe63d8485edbef17160b468e9a985f8",
+   "pkgpath": "Data/sharedassets0.assets",
+   "size": 6743048,
+   "src": "C:/Users/ty547135/Desktop/OCEANA-Treble-Underwater/MagicLeapTest/Temp/StagingArea/Data/sharedassets0.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "18b0f1cfef9f6810109dd356045cb2472d1f2b04",
+   "pkgpath": "Data/sharedassets0.assets.resS",
+   "size": 8615816,
+   "src": "C:/Users/ty547135/Desktop/OCEANA-Treble-Underwater/MagicLeapTest/Temp/StagingArea/Data/sharedassets0.assets.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "6cc502a15fe7424d2f7bd8616c6225784904d4ad",
+   "pkgpath": "Data/sharedassets0.resource",
+   "size": 9388000,
+   "src": "C:/Users/ty547135/Desktop/OCEANA-Treble-Underwater/MagicLeapTest/Temp/StagingArea/Data/sharedassets0.resource"
+  },
+  {
+   "compression": 8,
+   "hash": "2b5efbfd59a16a6a3421e4899cd43df9bed8afa0",
+   "pkgpath": "bin/Player.elf",
+   "size": 20284312,
+   "src": "C:/Users/ty547135/Desktop/OCEANA-Treble-Underwater/MagicLeapTest/Temp/StagingArea/Player.elf",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\ty547135\\Desktop\\OCEANA-Treble-Underwater\\MagicLeapCert\\newlabel.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "c8d131b55c40f4e09f4a9814a3f12c1e793143cd",
+   "xfrm_path": "C:/Users/ty547135/Desktop/OCEANA-Treble-Underwater/MagicLeapTest/.out/.cache/debug_lumin_clang-3.8_aarch64/edu.ucf.gonzalt.mlbuild-0f51278a098f34d3\\Player.elf-98af388db66fbdd4",
+   "xfrm_size": 20285070
+  },
+  {
+   "compression": 8,
+   "hash": "fffea6d32391fe17cca15de1fac210d81de45fd9",
+   "pkgpath": "manifest.xml",
+   "size": 3562,
+   "src": "C:\\Users\\ty547135\\Desktop\\OCEANA-Treble-Underwater\\MagicLeapTest\\Temp\\StagingArea\\manifest.xml",
+   "xfrm_flags": {
+    "manifest": {
+     "cert_hash": "12dd957a06fd77bdb26ea71d10017ebfb0d1871f",
+     "developer_id": "e717d4aa-9779-4b69-a664-5c3010faee8c"
+    }
+   },
+   "xfrm_hash": "3531d0433727b85bfdeb177eb6f994b59ef87c9d",
+   "xfrm_path": "C:/Users/ty547135/Desktop/OCEANA-Treble-Underwater/MagicLeapTest/.out/.cache/debug_lumin_clang-3.8_aarch64/edu.ucf.gonzalt.mlbuild-0f51278a098f34d3\\manifest.xml-98af388db66fbdd4",
+   "xfrm_size": 1212
+  }
+ ],
+ "pkgflags": {
+  "signed": {
+   "cert": "C:\\Users\\ty547135\\Desktop\\OCEANA-Treble-Underwater\\MagicLeapCert\\newlabel.cert"
+  },
+  "taildata": {
+   "debuggable": true,
+   "devcert": "C:\\Users\\ty547135\\Desktop\\OCEANA-Treble-Underwater\\MagicLeapCert\\newlabel.cert",
+   "sbox": "USER",
+   "version": 3
+  }
+ }
+}
