@@ -22,16 +22,16 @@
   },
   {
    "compression": 8,
-   "hash": "23556c178cf263a8254d8e2e351511b35fce566f",
+   "hash": "f564e7716de42617e433ecf40dc01a903a7b0699",
    "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
-   "size": 3120128,
+   "size": 3296884,
    "src": "E:/OCEANA-Treble-Underwater/MagicLeapTest/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
   },
   {
    "compression": 8,
-   "hash": "19e18b96ae02fa87c28f30d5452105d45f23b3de",
+   "hash": "8650b541479762cdc033dc0b3d7fdbac5b89fc8f",
    "pkgpath": "bin/libil2cpp.so",
-   "size": 46406536,
+   "size": 50122048,
    "src": "E:/OCEANA-Treble-Underwater/MagicLeapTest/Temp/StagingArea/Data/Native/libil2cpp.so",
    "xfrm_flags": {
     "signed": {
@@ -43,9 +43,9 @@
      "version": 3
     }
    },
-   "xfrm_hash": "244add9dfd7e9c304a70ff9d125fbf236af8ff2f",
+   "xfrm_hash": "761229740bdb7f975c39585f40ce79af86713162",
    "xfrm_path": "E:/OCEANA-Treble-Underwater/MagicLeapTest/.out/.cache/debug_lumin_clang-3.8_aarch64/edu.ucf.gonzalt.mlbuild3-074d62da4b5f777a\\libil2cpp.so-d501d1ac025e9e30",
-   "xfrm_size": 46407294
+   "xfrm_size": 50122806
   },
   {
    "compression": 8,
@@ -178,37 +178,30 @@
   },
   {
    "compression": 8,
-   "hash": "fbf41033e2feed19f69340aeebaa530d8b1fa140",
+   "hash": "c006371cf8d2cf6f6227b53de354e6de6680a493",
    "pkgpath": "Data/globalgamemanagers",
-   "size": 46320,
+   "size": 46280,
    "src": "E:/OCEANA-Treble-Underwater/MagicLeapTest/Temp/StagingArea/Data/globalgamemanagers"
   },
   {
    "compression": 8,
-   "hash": "b2dd815250f599bb9adb3541f277c2ba65dee010",
+   "hash": "3aaccd4d6e42910c93c7592d6f07092b5b495e0f",
    "pkgpath": "Data/globalgamemanagers.assets",
-   "size": 48872,
+   "size": 48852,
    "src": "E:/OCEANA-Treble-Underwater/MagicLeapTest/Temp/StagingArea/Data/globalgamemanagers.assets"
   },
   {
    "compression": 8,
-   "hash": "27eb4b1007c8cf07f2a50bc78deed803c64a2e34",
+   "hash": "eab8cca3f6467b6d7f45def41141285a165bdacc",
    "pkgpath": "Data/level0",
-   "size": 6740,
+   "size": 5199996,
    "src": "E:/OCEANA-Treble-Underwater/MagicLeapTest/Temp/StagingArea/Data/level0"
   },
   {
    "compression": 8,
-   "hash": "ed4bcadd9bcfdd2a0a7e859002cb9007a4f9637f",
-   "pkgpath": "Data/level1",
-   "size": 75316,
-   "src": "E:/OCEANA-Treble-Underwater/MagicLeapTest/Temp/StagingArea/Data/level1"
-  },
-  {
-   "compression": 8,
-   "hash": "aa8298600242e657db19c1e27a5c9e8db9ce3214",
+   "hash": "27dcb8a62dc5f97a006e1e35cafd6d3fc27f4b11",
    "pkgpath": "Data/resources.assets",
-   "size": 2681336,
+   "size": 534856,
    "src": "E:/OCEANA-Treble-Underwater/MagicLeapTest/Temp/StagingArea/Data/resources.assets"
   },
   {
@@ -227,24 +220,24 @@
   },
   {
    "compression": 8,
-   "hash": "b71635173e19ec09d82e1051e97ed25c4654cccf",
+   "hash": "1215eedf1cf0a73b80f3694da29739a2c7cbbc4c",
    "pkgpath": "Data/sharedassets0.assets",
-   "size": 22648,
+   "size": 11352296,
    "src": "E:/OCEANA-Treble-Underwater/MagicLeapTest/Temp/StagingArea/Data/sharedassets0.assets"
   },
   {
    "compression": 8,
-   "hash": "7f43ad7fa504256d8a966905ea21c3b1ca1d4b9a",
-   "pkgpath": "Data/sharedassets1.assets",
-   "size": 5344960,
-   "src": "E:/OCEANA-Treble-Underwater/MagicLeapTest/Temp/StagingArea/Data/sharedassets1.assets"
+   "hash": "a40e8e21c00bc53bd716a56c7a579266f3376db5",
+   "pkgpath": "Data/sharedassets0.assets.resS",
+   "size": 72341744,
+   "src": "E:/OCEANA-Treble-Underwater/MagicLeapTest/Temp/StagingArea/Data/sharedassets0.assets.resS"
   },
   {
    "compression": 8,
-   "hash": "03dd8ea43e6d3e63cadc108de2134361551fe7db",
-   "pkgpath": "Data/sharedassets1.assets.resS",
-   "size": 54603208,
-   "src": "E:/OCEANA-Treble-Underwater/MagicLeapTest/Temp/StagingArea/Data/sharedassets1.assets.resS"
+   "hash": "6cc502a15fe7424d2f7bd8616c6225784904d4ad",
+   "pkgpath": "Data/sharedassets0.resource",
+   "size": 9388000,
+   "src": "E:/OCEANA-Treble-Underwater/MagicLeapTest/Temp/StagingArea/Data/sharedassets0.resource"
   },
   {
    "compression": 8,
